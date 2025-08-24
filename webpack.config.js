@@ -5,7 +5,7 @@ module.exports = withModuleFederationPlugin({
 
   exposes: {
     // Best practice: expose corse-grained routes
-    './Component': './src/app/users/users.component.ts',
+    './feature': './src/app/feature.routes.ts',
   },
 
   shared: {
